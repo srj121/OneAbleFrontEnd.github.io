@@ -26,7 +26,7 @@ public class ControllerHtml {
 
 	@RequestMapping("/loginpage")
 	public String logindetails() {
-		return "login_details";
+		return "index";
 	}
 
 	@PostMapping("/loginpage")
