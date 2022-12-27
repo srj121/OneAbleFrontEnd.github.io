@@ -1,0 +1,66 @@
+body {
+	background: linear-gradient(90deg, #d11e1e, #2598a7 );	
+    height: 780px; width: 700px; margin:auto;
+}
+
+    
+    form {border: 3px solid rgb(227, 220, 220); height: 250px; width: 280px; margin:auto;}
+          .main{
+            text-align: center;
+           color: white;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    }
+    .h{
+      text-align: center;
+      margin-top: 1000;
+      text-align: center44dre;
+  padding: 10px 20px;
+  margin-top: 50px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    }
+    .t{
+        text-align: center;
+      margin-top: 1000;
+      color:aqua; 
+      
+    }
+    button {
+  background-color: transparent;
+
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px;
+  cursor: pointer;
+  width: 100px;
+  color: white;
+  text-decoration: solid;
+
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+
+            
+}
+button:hover {
+  opacity: 0.8;
+}
+ span.signup {
+  
+  cursor: pointer;
+  color: white;
+
+}
+
+
+input[type=text], input[type=password] {
+  width: 250px;
+  background-color: transparent;
+  
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+
+

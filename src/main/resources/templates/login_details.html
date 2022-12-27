@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>User Login</title>
+<link rel="stylesheet" href ="" th:href="@{/css/login_css.css}" />
+
+</head>
+<body>
+	<div class="h">
+
+
+
+<h1 class="main">Login Page </h1>
+
+<!-- <h2 th:text="${errorMsg}" ></h2>	 -->
+<form th:action="loginpage"  method="post" >
+
+    <div class="imgcontainer">
+        <img src="images/login_avatar.png" alt="Avatar" class="avatar">
+      </div>
+      
+     <label ><b>Username</b></label><br>
+    <input type="text" placeholder="Username"  name="userName" required><br><br>
+
+    <label ><b>Password</b></label><br>
+    <input type="password" placeholder="Password" name="passWord" required><br><br>
+   
+   
+    <button type="submit" class="button">Login</button><br><br>
+    
+    <a th:href="@{/registration}"><span class="signup">sign up here!</span></a>
+    
+
+	</form>
+</div>
+</body>
+</html>

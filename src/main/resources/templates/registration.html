@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+<link rel="stylesheet" href ="" th:href="@{/css/register_css.css}" />
+<h1 class="main" >Register Page</h1>
+</head>
+<body>
+<div class="h">
+<!-- <div  th:if="${session.message}" -->
+<!--     th:classappend= "${session.message}" class="alert alert-sucess"  -->
+<!--     role="alert" > -->
+<!--     <p th:text="${session.message}"> </p> -->
+   
+<!--     <th:block th:text="${#session.removeAttribute('message')}"></th:block> -->
+    
+<!--     </div> -->
+    
+<form th:action="@{/registrationinfo}" th:object="${user}" method="post">
+
+		<input type="text" placeholder="Username" name="userName" required><br>
+		<br>
+		<input type="text" placeholder="Password" name="passWord" required><br>
+		<br>
+		
+		<button>sign up</button>
+	</form>
+</div>
+
+</body>
+</html>

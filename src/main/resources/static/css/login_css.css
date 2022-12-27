@@ -1,0 +1,77 @@
+
+body {
+	background: linear-gradient(90deg, #d11e1e, #2598a7 );	
+    height: 780px; width: 700px; margin:auto;
+}
+
+    
+    form {border: 3px solid white; height: 780px; width: 650px; margin:auto;}
+          .main{
+           color: white;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    }
+    .h{
+      text-align: center;
+      margin-top: 1000;
+      text-align: center44dre;
+  padding: 10px 20px;
+  margin-top: 50px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    }
+    .t{
+        text-align: center;
+      margin-top: 1000;
+      color:aqua; 
+      
+    }
+    button {
+  background-color: transparent;
+
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px;
+  cursor: pointer;
+  width: 100px;
+  color: white;
+  text-decoration: solid;
+
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+
+            
+}
+a{
+  color: white;
+}
+button:hover {
+  opacity: 0.8;
+}
+ span.signup {
+  
+  cursor: pointer;
+  color: white;
+
+}
+
+input[type=text], input[type=password] {
+    width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color:  #80a9c3;
+  display: inline-block;
+ 
+  border: 1px solid rgb(142, 161, 198);
+  box-sizing: border-box;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.imgcontainer {
+  text-align: center;
+  margin: 50px 0 25px 0;
+  
+}
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+

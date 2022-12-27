@@ -1,0 +1,41 @@
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome</title>
+
+<link rel="stylesheet" href ="" th:href="@{/css/welcome_css.css}" />
+</head>
+<body>
+	<div class="h">
+
+<h1 style="display: inline-block" >Welcome &nbsp;</h1>
+<h1 style="display: inline-block" th:text="${userregi.userName}"></h1>
+<h1 style="display: inline-block" >&nbsp; to our Platform</h1>
+
+</div>
+
+    <div>
+	<a th:href="@{/loginpage}"><button  type="submit" class="logout">Logout</button></a>
+	</div>
+<div>
+	<a th:href="@{/chrome}">
+	<img alt = "chrome" style="width:55px;height:55px;" src ="images/chrome.png"></a><br><br>
+	<a th:href="@{/visualstudio}" >
+	<img alt = "visualCode" style="width:50px;height:50px;" src ="images/visualstudio.png"></a><br><br>
+	<a th:href="@{/eclipse}" >
+	<img alt = "eclipse" style="width:50px;height:50px;" src ="images/eclipse.png"></a><br><br>
+	<a th:href="@{/postman}"  >
+	<img alt = "postman" style="width:50px;height:50px;" src ="images/postman.png"></a><br><br>
+	<a th:href="@{/Springboot}"  >
+	<img alt = "sts" style="width:50px;height:50px;" src ="images/sts.png"></a><br><br>
+	<a th:href="@{/mongodb}"  >
+	<img alt = "mongodb" style="width:70px;height:35px;" src ="images/mongodb.png"></a><br><br>
+	<a th:href="@{/thymeleaf}"  >
+	<img alt = "thymeleaf" style="width:70px;height:35px;" src ="images/thymeleaf.png"></a><br><br>
+</div>
+
+
+
+
+</body>
+</html>

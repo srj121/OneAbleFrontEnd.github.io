@@ -1,0 +1,76 @@
+body {
+  
+	background: linear-gradient(90deg, #d11e1e, #2598a7 );	
+}       
+  .h{
+      padding-top: 30px;
+     
+      text-align: center;
+      color: white;
+      font-weight: bold; 
+
+    }
+      
+      div{   
+        
+        color: white;     
+        scroll-margin-left: 100px;
+        text-align: left;
+  
+      }
+      img{
+        transition: all 0.3s linear;
+
+      }
+      a:hover img{
+        transform: scale(1.2);
+
+      }
+      
+      button.endsession {
+        background-color: transparent;
+        color: white;
+       
+        font-weight: bold; 
+        
+        padding: 10px;
+        cursor: pointer;
+        width: 110px;
+
+        text-align: center;
+   
+        
+        box-shadow: 0 6px 6px rgba(240, 238, 238, 0.6);
+      
+                  
+      }
+      button.home {
+        background-color: transparent;
+        color: white;
+       
+        font-weight: bold; 
+        
+        padding: 10px;
+        cursor: pointer;
+        width: 70px;
+
+        text-align: center;
+   
+        
+        box-shadow: 0 6px 6px rgba(240, 238, 238, 0.6);
+      
+                  
+      }
+      button.logout {
+
+        background-color: transparent;
+        color: white;
+        margin-left: 730px;
+        font-weight: bold; 
+        margin-top: px;
+        padding: 10px;
+        cursor: pointer;
+        width: 70px;
+        box-shadow: 0 6px 6px rgba(8, 0, 0, 0.6);
+      
+      }
